@@ -11,16 +11,12 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
+input[type=submit] {
+  background-color: #4CAF50;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20%;
   cursor: pointer;
 }
 /* Add a background color and some padding around the form */
